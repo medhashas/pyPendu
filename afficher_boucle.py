@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 20 17:59:49 2023
+    Created on Mon Nov 20 17:59:49 2023
 
-@author: M. Hashas
+    Language : Python 3.8
+
+    Description : Afficher une boucle d'attente matérialisée par la rotation
+                  des caractères -, \, | et / dans la console
+
+    @author: M. Hashas
 """
 
 import time
