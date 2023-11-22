@@ -2,7 +2,7 @@
 """
     Created on Mon Nov 20 17:59:49 2023
 
-    Language : Python 3.8
+    Language : Python 3.8 / 3.12
 
     Description : Afficher une boucle d'attente matérialisée par la rotation
                   des caractères -, \, | et / dans la console
