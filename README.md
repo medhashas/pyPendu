@@ -48,6 +48,10 @@ potence = [
 >>*Programme Python du jeu "Le Pendu" en version améliorée*
 >>>@author : Mohammed Hashas
 
+# Code du programme
+***
+Vous trouverez le code source dans le fichier monJeuDuPendu.py. 
+
 ## Algorithme
 ***
 - On fixe un mot choisi dans le dictionnaire dico_mots{} -> motAChercher         expl : 'SOLEIL' (mot caché)
