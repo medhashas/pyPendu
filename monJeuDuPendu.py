@@ -77,7 +77,7 @@ potence = [
         - # Si elle est présente,
             . On récupère l'indice de la lettre saisie dans le mot caché                     expl : dans SOLEIL le 'L' a l'indice 2 et 5
             . Si la taille du tableau des indices est > 0 ET la lettre saisie                       ici la taille du tableau des indices = 2
-                n'est pas parmi les lettres trouvées 
+                n'est pas parmi les lettres trouvées
             . On affiche message : "lettre présente"
             . On place le lettre dans le tableau lettres_trouvees exactements aux            expl : le 'L' sera placé à [2] et à [5] du tableau
               mêmes indices trouvés dans le mot caché                                               lettres_trouvees
@@ -145,7 +145,6 @@ def tirer_mot_O_hasard():
     return mot.upper(), indication
 
 def remplir_traces_vide(mot, lettres_trouvees):
-    print("type l t : {}, taille l t : {}, len mot : {}".format(type(lettres_trouvees), len(lettres_trouvees), len(mot)))
     s = "_"
     for k in range(len(mot)):
         lettres_trouvees.append(s)
